@@ -42,7 +42,7 @@ public class AmazonPage {
     public WebElement istenenUrunElementi(int index){
 
         String dinamikXpath = "(//span[@class='a-size-base-plus a-color-base a-text-normal'])["+index+"]";
-        WebElement istenenUrun=Driver.getDriver().findElement(By.xpath(dinamikXpath));
+        WebElement istenenUrun= Driver.getDriver().findElement(By.xpath(dinamikXpath));
 
         return istenenUrun;
     }
