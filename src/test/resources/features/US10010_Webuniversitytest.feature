@@ -1,6 +1,6 @@
 Feature: US1010 WebUniversity Testi
 
-  @start
+  @ss
   Scenario:TC14 Webuniversity sayfasinda istenen gorevleri yapar
 
     Given kullanici "webUrl" anasayfaya gider
@@ -17,5 +17,5 @@ Feature: US1010 WebUniversity Testi
     And Ok diyerek Popup'i kapatir
     Then Ilk sayfaya geri doner
     And Ilk sayfaya donuldugunu test eder
-    And tum sayfalari kapatir
+
 

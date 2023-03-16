@@ -1,5 +1,5 @@
 Feature: US1008 gecerli kullanici adi ve sifre ile sisteme giris
-  @sss
+  @ss
   Scenario: TC12 Gecerli username ve password ile basarili giris yapilabilmeli
 
     Given kullanici "qdUrl" anasayfaya gider
@@ -9,4 +9,3 @@ Feature: US1008 gecerli kullanici adi ve sifre ile sisteme giris
     And 10 saniye bekler
     And login butonuna basar
     Then basarili olarak giris yapildigini test eder
-    And sayfayi kapatir

@@ -1,5 +1,5 @@
 Feature: US1009 Herakuapp implicitly wait
-
+@wip
   Scenario:  TC13 kullanici implicitly wait ile görevleri yapabilmeli
 
     Given kullanici "herokuUrl" anasayfaya gider
