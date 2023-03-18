@@ -111,5 +111,8 @@ public class AmazonStepdefinitions {
     }
 
 
-
+    @Given("Kulalnici amazon sayfasina gider")
+    public void kulalniciAmazonSayfasinaGider() {
+        Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
+    }
 }

@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         },
          features = "src/test/resources/features",
         glue = "stepdefinitions",      //java codlarimizin ooldugu ile feature'i birlestiren (java kodlarini nereden bulacagini)
-        tags = "@ss or @wip",   // hangi java kodlarini calistiracagini
+        tags = "@regression",   // hangi java kodlarini calistiracagini
         dryRun = false
 )
 public class Runner {

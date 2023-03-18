@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "stepdefinitions",      //java codlarimizin ooldugu ile feature'i birlestiren (java kodlarini nereden bulacagini)
-        tags = "@wip",   // hangi java kodlarini calistiracagini
+        tags = "@pr1",   // hangi java kodlarini calistiracagini
         dryRun = false
 )
 

@@ -1,6 +1,7 @@
+@regression
 Feature: US1010 WebUniversity Testi
 
-  @ss
+  @wip
   Scenario:TC14 Webuniversity sayfasinda istenen gorevleri yapar
 
     Given kullanici "webUrl" anasayfaya gider

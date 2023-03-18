@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "stepdefinitions",      //java codlarimizin ooldugu ile feature'i birlestiren (java kodlarini nereden bulacagini)
-        tags = "@ss",   // hangi java kodlarini calistiracagini
+        tags = "@pr2",   // hangi java kodlarini calistiracagini
         dryRun = false
 )
 public class ParalelRunner2 {

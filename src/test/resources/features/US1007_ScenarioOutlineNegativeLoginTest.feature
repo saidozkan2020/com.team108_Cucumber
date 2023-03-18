@@ -1,4 +1,5 @@
-  Feature: US1007 Scenario Outline ile coklu negative login test
+@regression
+Feature: US1007 Scenario Outline ile coklu negative login test
 
   Scenario Outline: TC11 kullanici verilen listedeki kullanici isimleri ile giris yapamamali
 

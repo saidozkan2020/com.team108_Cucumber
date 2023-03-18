@@ -1,3 +1,4 @@
+@regression  @pr1
 Feature: US1001 Kullanici Amazon sayfasinda arama yapar
 @ilk
   Scenario: TC01 Kullanici Amazonda Nutella aratir
